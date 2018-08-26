@@ -1,0 +1,33 @@
+.no-padding {
+    padding: 0;
+}
+
+.the-best-header-ever__container {
+    max-width: 1900px;
+    padding-top: 2rem; 
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("doge-bg.jpg");
+    color: #fff;
+}
+
+.the-best-header-ever__container__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,51,51,0.7);
+}
+
+.the-best-header-ever__container__logo-container__logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: solid 1px #fff;
+    margin-right: 1rem;
+}
+
+.the-best-header-ever__container__breadcrumb-container__breadcrumb {
+    display: inline-block;
+}
