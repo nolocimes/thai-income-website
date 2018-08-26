@@ -31,3 +31,14 @@
 .the-best-header-ever__container__breadcrumb-container__breadcrumb {
     display: inline-block;
 }
+
+.the-best-body-ever__container {
+    max-width: 1900px;
+    padding: 3rem 20%; 
+    background-color: #fff;
+    color: #333;
+}
+
+.the-best-body-ever__container__footer-img {
+    max-height: 2rem;
+}
