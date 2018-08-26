@@ -39,6 +39,17 @@
     color: #333;
 }
 
+.the-best-body-ever__container--dark {
+    max-width: 1900px;
+    padding: 3rem 20%; 
+    background-color: #333;
+    color: #fff;
+}
+
+.the-best-body-ever__container__img{
+    width: 100%;
+}
+
 .the-best-body-ever__container__footer-img {
     max-height: 2rem;
 }
