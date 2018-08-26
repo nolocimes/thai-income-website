@@ -2,6 +2,10 @@
     padding: 0;
 }
 
+.green-text {
+    color: #608a32;
+}
+
 .the-best-header-ever__container {
     max-width: 1900px;
     padding-top: 2rem; 
@@ -52,4 +56,16 @@
 
 .the-best-body-ever__container__footer-img {
     max-height: 2rem;
+}
+
+.the-best-body-ever__container__feature-container {
+    width: 100%;
+    color: #333;
+}
+
+.the-best-body-ever__container__feature-container__feature {
+    background-color: #fff;
+    border: solid 3px #608a32;
+    border-radius: 1rem;
+    width: 100%;
 }
