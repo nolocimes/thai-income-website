@@ -1,3 +1,9 @@
+@media only screen and (max-width: 992px) {
+    .d-flex {
+        flex-direction: column;
+    }
+}
+
 .carousel-inner {
     height: 10rem;
 }
@@ -16,10 +22,10 @@
 
 .green-text {
     color: #608a32;
+    word-break: break-word;
 }
 
 .the-best-header-ever__container {
-    max-width: 1900px;
     padding-top: 2rem;
     padding-left: 10%;
     padding-right: 10%;
@@ -49,28 +55,24 @@
 }
 
 .the-best-body-ever__container {
-    max-width: 1900px;
     padding: 3rem 20%;
     background-color: #fff;
     color: #333;
 }
 
 .the-best-body-ever__container--small {
-    max-width: 1900px;
     padding: 3rem 20%;
     background-color: #fff;
     color: #333;
 }
 
 .the-best-body-ever__container--dark {
-    max-width: 1900px;
     padding: 1rem 20%;
     background-color: #333;
     color: #fff;
 }
 
 .the-best-body-ever__container--dark--small {
-    max-width: 1900px;
     padding: 1rem 20%;
     background-color: #333;
     color: #fff;
@@ -81,7 +83,7 @@
 }
 
 .the-best-body-ever__container__footer-img {
-    max-height: 2rem;
+    max-height: 1.5rem;
 }
 
 .the-best-body-ever__container__feature-container {
@@ -94,4 +96,21 @@
     border: solid 3px #608a32;
     border-radius: 1rem;
     width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel-inner {
+        height: 15rem;
+    }
+    .the-best-header-ever__container__logo-container {
+        margin-bottom: 2rem;
+    }
+    .the-best-body-ever__container__footer-img {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .the-best-body-ever__container__img {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
 }
