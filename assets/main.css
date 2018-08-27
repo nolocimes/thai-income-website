@@ -1,3 +1,15 @@
+.carousel-inner {
+    height: 10rem;
+}
+
+.carousel-indicators li {
+    background-color: #ccc;
+}
+
+.carousel-indicators li.active {
+    background-color: #608a32;
+}
+
 .no-padding {
     padding: 0;
 }
@@ -8,7 +20,7 @@
 
 .the-best-header-ever__container {
     max-width: 1900px;
-    padding-top: 2rem; 
+    padding-top: 2rem;
     padding-left: 10%;
     padding-right: 10%;
     background-image: url("doge-bg.jpg");
@@ -21,7 +33,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(51,51,51,0.7);
+    background-color: rgba(51, 51, 51, 0.7);
 }
 
 .the-best-header-ever__container__logo-container__logo {
@@ -38,19 +50,33 @@
 
 .the-best-body-ever__container {
     max-width: 1900px;
-    padding: 3rem 20%; 
+    padding: 3rem 20%;
+    background-color: #fff;
+    color: #333;
+}
+
+.the-best-body-ever__container--small {
+    max-width: 1900px;
+    padding: 3rem 20%;
     background-color: #fff;
     color: #333;
 }
 
 .the-best-body-ever__container--dark {
     max-width: 1900px;
-    padding: 3rem 20%; 
+    padding: 1rem 20%;
     background-color: #333;
     color: #fff;
 }
 
-.the-best-body-ever__container__img{
+.the-best-body-ever__container--dark--small {
+    max-width: 1900px;
+    padding: 1rem 20%;
+    background-color: #333;
+    color: #fff;
+}
+
+.the-best-body-ever__container__img {
     width: 100%;
 }
 
